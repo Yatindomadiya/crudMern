@@ -1,0 +1,49 @@
+.User_table {
+    width: 60%;
+    background-color: white;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+   
+}
+
+.addButton{
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
+    border-radius: 5px;
+    padding: 10px;
+}
+.User_table table{
+    width: 60vw;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.User_table table thead th{
+    padding: 12px;
+    background-color:rgb(228, 205, 228);
+    color: black;
+}
+.User_table table tbody td{
+    text-align: center;
+}
+.action button{
+    border: 0;  
+    outline: none;
+    font-weight: bold   ;
+    background-color: white;
+    padding: 4px 7px;
+    margin: 2px;
+    color: red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.action a{
+    padding:  3px 5px;  
+    color: green;
+
+    cursor: pointer;
+}

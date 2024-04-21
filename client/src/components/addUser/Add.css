@@ -1,0 +1,55 @@
+.add_user{
+    width: 30%;
+    background-color: white;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+.add_user a{
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form_class{
+    
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+}
+ h3{
+    margin-bottom: 30px;
+   display:flex;
+   justify-content: center;
+ }
+.form_class label{
+    font-weight: 500;
+}
+.form_class input{
+    margin-top: 5px;
+    padding-left: 6px;
+    /* border: 1px solid black; */
+    height: 25px;
+    border-radius: 5px;
+}
+button{
+    cursor: pointer;
+    width: 60px;
+    color: white;
+    background-color: purple;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;    
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
