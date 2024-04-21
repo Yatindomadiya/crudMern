@@ -8,7 +8,12 @@ import axios from 'axios';
 const User = () => {
 
   const [user, setuser] = useState([]);
-  
+
+  const handledelet = async (id) => {
+    await axios.delete(`http://localhost:3000/api/userdelete/${id}`);
+    window.location.reload()
+  }
+
   useEffect(() => {
 
     const fetchData = async () => {
@@ -40,8 +45,8 @@ const User = () => {
                 <td>{users.fname} {users.lname}</td>
                 <td>{users.email}</td>
                 <td className='action'>
-                  <button> <FaTrash /></button>
-                  <Link to={`/update/`+users._id}><FaEdit /></Link>
+                  <button onClick={() => handledelet(users._id)}> <FaTrash /></button>
+                  <Link to={`/update/` + users._id}><FaEdit /></Link>
                 </td>
               </tr>
             )
