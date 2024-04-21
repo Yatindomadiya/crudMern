@@ -58,7 +58,7 @@ const Update = () => {
           <label>Email</label>
           <input type='email' onChange={ohchangehandler} value={user.email}></input>
           <label>Password</label>
-          <input type='password' onChange={ohchangehandler} value={user.password}></input>
+          <input type='password' onChange={ohchangehandler} value={user.password}></input>     
 
         </form>
       </div>
