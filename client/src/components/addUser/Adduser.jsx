@@ -18,7 +18,6 @@ const Adduser = () => {
     const { name, value } = e.target;
     setuser({ ...user, [name]: value })
     console.log(user);
-
   }
 
   const frmsubmited = async (e) => {
@@ -28,7 +27,7 @@ const Adduser = () => {
       .then(() => {
       })
       .catch((err) => {
-        console.log(err);
+        console.log(err); 
       })
     window.location.href = '/';
     

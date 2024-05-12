@@ -19,8 +19,8 @@ module.exports.create = async (req, res) => {
 }
 
 module.exports.getAll = async (req, res) => {
-    try {  
-        const userData = await User.find();
+    try {   
+        const userData = await User.find(); 
 
         if (!userData) {
             return res.status(404).json(error)
